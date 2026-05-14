@@ -1,4 +1,4 @@
-FROM docker.io/ubuntu
+FROM docker.io/httpd
 RUN apt update -y 
 RUN apt install apache2 -y
 COPY index.html /var/www/html/
